@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <picture class="hero-img">
+        <source media="(min-width: 930px)" srcset="./images/hero-desktop.jpg" />
+        <img src="./images/hero-mobile.jpg" alt="Beautiful woman" />
+      </picture>
+      <img class="logo" src="./images/logo.svg" alt="logo" />
+      <section class="hero">
+        <header class="hero-header">
+          <h1 class="heading"><span class="were">We're</span> coming soon</h1>
+          <p class="description">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+        </header>
+        <form action="#">
+          <label for="email">Email Address</label>
+          <input
+            class="email"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+            required
+          />
+          <img
+            class="error-icon error"
+            src="./images/icon-error.svg"
+            alt="icon error"
+          />
+          <button class="input-btn" type="submit">
+            <img src="./images/icon-arrow.svg" alt="icon arrow" />
+          </button>
+          <p class="error-msg error">Please provide a valid email</p>
+        </form>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/timavidon" target="_blank">Tim Avidon</a>.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
