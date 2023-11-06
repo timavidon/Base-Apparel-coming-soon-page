@@ -29,18 +29,15 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/timavidon/Base-Apparel-coming-soon-page)
+- Live Site URL: [Live Site](https://timavidon.github.io/Base-Apparel-coming-soon-page/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- CSS (Flexbox, Grid)
+- JavaScript
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+
